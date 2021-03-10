@@ -1,0 +1,14 @@
+.container {
+  padding: .5rem;
+}
+
+.value {
+  size: 1.5rem;
+}
+
+.primary {
+  background-color: blue;
+  @nest .container & .value {
+    color: pink
+  }
+}
